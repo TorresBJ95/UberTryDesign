@@ -14,6 +14,10 @@
 #uber-image{
     margin-left: 300px;
 }
+#uber-image:hover{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(28,46,91,1) 87%);
+    color: white !important;
+}
 .container-own > a{
     color: white;
 }
@@ -39,7 +43,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 120px;
+    gap: 30px;
+    
 }
 .card{
     width: 30vw;
@@ -93,3 +98,9 @@
     
     
 }
+ul > li > a:hover{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(28,46,91,1) 87%);
+    color: white !important;
+    
+}
+
