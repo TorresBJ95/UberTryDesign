@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UberTryDesign</title>
+    <title>TryDesign</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header></header>
+    
     <nav class="navbar-own navbar navbar-expand-lg">
         <div class="container-own container-fluid">
-            <a id="uber-image" class="navbar-brand" href="https://www.uber.com/ar/en/">UberTryDesign</a>
+            <a id="uber-image" class="navbar-brand" href="https://www.uber.com/ar/en/">TryDesign</a>
             <div class="container-own collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="container-own nav-item  dropdown">
@@ -53,30 +54,208 @@
             </div>
         </div>
     </nav>
-    <section>
+    <section style="background-color: black;">
         <div>
-            <div id="image-driver-index">
-                <img id="image-driver" src="https://images.pexels.com/photos/1135379/pexels-photo-1135379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image-driver">
+            <div class="image-index">
+                <img class="image" src="https://images.pexels.com/photos/1135379/pexels-photo-1135379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image-driver">
             </div>
             <div id="card-position" class="card">
-                <div class="card-edit card-header">
-                    <p class="card-text">Drive or deliver</p>
-                    <p class="card-text">Eat</p>
-                    <p class="card-text" >Ride</p>
+                <div style="background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(28,46,91,1) 87%);" class="card-edit card-header">
+                    <svg style="margin-top: 15px; color: white" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                        <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                    </svg>
+                    <p style="background-color: transparent; color: white;" class="card-text">Drive or deliver</p>
+                    <svg style="margin-top: 15px; color: white" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-activity" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z"/>
+                    </svg>
+                    <p style="background-color: transparent; color: white;" class="card-text">Eat</p>
+                    <svg style="margin-top: 15px; color: white" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-scooter" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M9 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-.39l1.4 7a2.5 2.5 0 1 1-.98.195l-.189-.938-2.43 3.527A.5.5 0 0 1 9.5 13H4.95a2.5 2.5 0 1 1 0-1h4.287l2.831-4.11L11.09 3H9.5a.5.5 0 0 1-.5-.5ZM3.915 12a1.5 1.5 0 1 0 0 1H2.5a.5.5 0 0 1 0-1h1.415Zm8.817-.789A1.499 1.499 0 0 0 13.5 14a1.5 1.5 0 0 0 .213-2.985l.277 1.387a.5.5 0 0 1-.98.196l-.278-1.387Z"/>
+                    </svg>
+                    <p style="background-color: transparent; color: white;" class="card-text" >Ride</p>
                 </div>
                 <div class="card-body">
                   <h1 class="card-title">Get in the driver's seat and get paid</h1>
                   <p class="card-text">Drive on the platform with the largest network of active riders.</p>
                   <button id="button-card" type="button" class="btn btn-dark">Sign up to drive</button>
-                  <p class="card-text">Learn more about driving and deliverin</p>
+                  <p style="text-decoration: underline;" class="card-text">Learn more about driving and deliverin</p>
                 </div>
             </div>
             
         </div>
     </section>
-    <article></article>
-    <footer></footer>
-    <aside></aside>
+    <section style="background-color: black;">
+        <div>
+            <div class="image-index">
+                <img class="image" src="https://images.pexels.com/photos/356830/pexels-photo-356830.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="city">
+            </div>
+            <div id="city-text-position" class="rounded-pill card" style="width: 68rem;">
+                <div class="card-body">
+                    <h1 class="card-title">Tools for business</h1>
+                    <p class="card-text">A platform for managing global rides and meals, and local deliveries, for companies of any size</p>
+                    <button id="button-card" type="button" class="btn btn-dark">Get started</button>
+                </div>
+            </div>
+
+        </div>    
+    </section>
+    <section>
+        <div class="d-flex p-2">
+            <h2 id="text-street">Focused on safety, wherever you go</h2>
+        </div>
+        <div class="d-flex flex-row mb-2 justify-content-center">
+            <div style="margin-left: 15vw" class="p-2">
+                <img style="width: 70%" src="https://images.pexels.com/photos/9519968/pexels-photo-9519968.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="driver">
+                <h5 style="margin-top: 20px;">Our commitment to you safety</h5>
+                <p style="line-height: normal;">With every safety feature and every standard in our Community Guidelines<br>
+                    we're committed to helping to create a safe environment for our users
+                </p>
+                
+                <p style="text-decoration: underline; display: inline;">Read about our Community Guidelines</p>
+                <p style="text-decoration: underline; margin-left: 30px; display: inline;">See all safety features</p>
+            </div>
+            <div style="margin-left: 1vw" class="p-2">
+                <img style="width: 70%" src="https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="street">
+                <h5 style="margin-top: 20px;">Setting 10,000+ cities in motion</h5>
+                <p>The app is avaliable in thousands of cities worldwide, so you can request a <br>
+                    ride even when you're far from home.
+                </p>
+                <p style="text-decoration: underline;">View all cities</p>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div style="margin-top: 80px;" class="d-flex flex-row mb-3 justify-content-center" >
+            <div style="margin-right: 40px;" class="p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                </svg>
+                <h6 style="margin-top: 10px;"><b>About us</b></h6>
+                <p style="line-height: normal; margin-top: 10px;">Find out how we started, what drives us, and how<br> we're reimagining how the world moves</p>
+                <p style="text-decoration: underline; margin-top: 40px;">Learn more about Uber</p>
+
+
+
+            </div>
+            <div class="p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-newspaper" viewBox="0 0 16 16">
+                    <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/>
+                    <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/>
+                </svg>
+                <h6 style="margin-top: 10px;" ><b>Newsroom</b></h6>
+                <p style="line-height: normal; margin-top: 10px;">See announcements about our latest releases,<br>initiatives, and partnerships</p>
+                <p style="text-decoration: underline; margin-top: 40px;">Go to Newsroom</p>
+
+            </div>
+            <div style="margin-left: 40px;" class="p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                    <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
+                </svg>
+                <h6 style="margin-top: 10px;"><b>Global citizenship</b></h6>
+                <p style="line-height: normal; margin-top: 10px;">Read about our commitment to making a <br> positive impact in the cities we serve.</p>
+                <p style="text-decoration: underline; margin-top: 40px;">See our partnerships</p>
+
+            </div>
+        </div>
+    </section>
+    <section style="background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(28,46,91,1) 87%);" class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <div style="margin-left: 20vw;" class="d-flex p-2">
+            <h2 style="color: white;"><b>There's more to love in the apps</b></h2>
+
+        </div>
+        <div class="d-flex flex-row mb-2 justify-content-center">
+            <div class="p-2">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img style="height: 150px; width: 150px;"  src="https://images.pexels.com/photos/3787149/pexels-photo-3787149.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>Download the driver app</b></h5>
+                          <p class="card-text">be your own boss with the app and set your work hours</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                  
+            </div>
+            <div class="p-2">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img style="width: 150px; height: 150px;" src="https://images.pexels.com/photos/34239/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>Download the app</b></h5>
+                          <p class="card-text">the fastest trip at your fingertips</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section>
+        <div class="d-flex flex-row mb-2 justify-content-center">
+            <div class="p-2">
+                <svg style="display: inline; margin: 20px 50px;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                </svg>
+                <h3 style="display: inline;"><b>Sign up to drive</b></h3>
+                <b><hr></b>
+
+            </div>
+
+            <div class="p-2">
+                <svg style="display: inline; margin: 20px 50px;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                </svg>
+                <h3 style="display: inline;"><b>Sign up to ride</b></h3>
+                <b><hr></b>
+
+
+            </div>
+        </div>
+
+    </section>
+    <footer style="background-color: black; height: 12vh;">
+        <div class="d-flex flex-row mb-2 justify-content-center">
+            <div style="color: white;" class="p-2">
+                <svg style="margin-right: 5vw;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                </svg>
+                <svg style="margin-right: 5vw;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg>
+                <svg style="margin-right: 5vw;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                </svg>
+                <svg style="margin-right: 5vw;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                </svg>
+                <svg style="margin-right: 5vw;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg>
+            </div>
+
+
+        </div>
+        <div class="text-center">
+            <img style="width: 60px; height: 40px; margin-right: 20px;" src="https://i.pinimg.com/564x/c8/c2/d6/c8c2d63700316f963150c74cc0f7dcce.jpg" class="rounded" alt="google play store">
+            <img style="width: 60px; height: 40px;" src="https://i.pinimg.com/564x/cc/f0/0e/ccf00ee8c9a0a174a9da3f0ae039ed20.jpg" class="rounded" alt="applestore">
+
+          </div>
+
+    </footer>
+    
 </body>
 </html>
 

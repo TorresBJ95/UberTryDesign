@@ -1,7 +1,7 @@
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+
 }
 .navbar-own{
     background-color: black;
@@ -14,16 +14,22 @@
 #uber-image{
     margin-left: 300px;
 }
+#uber-image:hover{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(28,46,91,1) 87%);
+    color: white !important;
+}
 .container-own > a{
     color: white;
 }
 
-#image-driver{
+.image{
     padding: 5px;
-    width: 100vw;
-    height: 70vh;
+    width: 100%;
+    height: auto;
 }
-#image-driver-index{
+.image-index{
+    max-width: 100vw;
+    max-height: 90vh;
     position: relative;
     z-index: 1;
 }
@@ -37,7 +43,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 120px;
+    gap: 30px;
+    
 }
 .card{
     width: 30vw;
@@ -45,6 +52,7 @@
     
 }
 #card-position{
+    border: 1px solid black;
     position: absolute;
     top: 200px;
     left: 500px;
@@ -52,6 +60,19 @@
     bottom: 250px;
     z-index: 2;
 }
+#city-text-position{
+    border: 1px solid black;
+    border-style: groove;
+    border-radius: 10px;
+    position: absolute;
+    top: 1000px;
+    left: 300px;
+    right: 700px;
+    bottom: 250px;
+    z-index: 2;
+
+}
+
 .card-body{
     background: white;
 }
@@ -70,3 +91,16 @@
 #button-card{
     margin: 20px;
 }
+#text-street{
+    color: #252525;
+    margin-top: 50px;
+    margin-left: 15vw;
+    
+    
+}
+ul > li > a:hover{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(28,46,91,1) 87%);
+    color: white !important;
+    
+}
+
